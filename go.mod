@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	berty.tech/go-libtor v1.0.385
-	github.com/Dreamacro/clash v1.15.1
+	github.com/Dreamacro/clash v1.16.0
 	github.com/caddyserver/certmagic v0.17.2
 	github.com/cretz/bine v0.2.0
 	github.com/dustin/go-humanize v1.0.1
@@ -17,14 +17,14 @@ require (
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/mholt/acmez v1.1.1
 	github.com/miekg/dns v1.1.54
-	github.com/ooni/go-libtor v1.1.7
+	github.com/ooni/go-libtor v1.1.8
 	github.com/oschwald/maxminddb-golang v1.10.0
 	github.com/pires/go-proxyproto v0.7.0
 	github.com/sagernet/cloudflare-tls v0.0.0-20221031050923-d70792f4c3a0
 	github.com/sagernet/gomobile v0.0.0-20230413023804-244d7ff07035
 	github.com/sagernet/quic-go v0.0.0-20230202071646-a8c8afb18b32
 	github.com/sagernet/reality v0.0.0-20230406110435-ee17307e7691
-	github.com/sagernet/sing v0.2.5-0.20230512033628-9be7806bab51
+	github.com/sagernet/sing v0.2.5-0.20230530114415-221f066dba7c
 	github.com/sagernet/sing-dns v0.1.5-0.20230426113254-25d948c44223
 	github.com/sagernet/sing-mux v0.0.0-20230517134606-1ebe6bb26646
 	github.com/sagernet/sing-shadowsocks v0.2.2-0.20230509053848-d83f8fe1194c
@@ -38,12 +38,12 @@ require (
 	github.com/sagernet/websocket v0.0.0-20220913015213-615516348b4e
 	github.com/sagernet/wireguard-go v0.0.0-20230420044414-a7bac1754e77
 	github.com/spf13/cobra v1.7.0
-	github.com/stretchr/testify v1.8.3
+	github.com/stretchr/testify v1.8.4
 	go.etcd.io/bbolt v1.3.7
 	go.uber.org/zap v1.24.0
 	go4.org/netipx v0.0.0-20230303233057-f1b76eb4bb35
 	golang.org/x/crypto v0.9.0
-	golang.org/x/exp v0.0.0-20230515195305-f3d0a9c9a5cc
+	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1
 	golang.org/x/net v0.10.0
 	golang.org/x/sys v0.8.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6
@@ -55,6 +55,7 @@ require (
 //replace github.com/sagernet/sing => ../sing
 
 require (
+	github.com/Dreamacro/protobytes v0.0.0-20230324064118-87bc784139cd // indirect
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/cloudflare/circl v1.2.1-0.20221019164342-6ab4dfed8f3c // indirect
@@ -85,7 +86,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/u-root/uio v0.0.0-20230220225925-ffce2a382923 // indirect
 	github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74 // indirect
-	go.uber.org/atomic v1.10.0 // indirect
+	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/mod v0.8.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
